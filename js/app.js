@@ -9,14 +9,15 @@ document.getElementById('faq__accordion').addEventListener('click', e => {
         if (selected)
             selected.classList.remove('faq__qa--selected');
 
-        if (selected != qa)
-            qa.classList.add('faq__qa--selected');
-        else {
+        if (qa == selected) {
             selected = null;
             return;
         }
 
+        qa.classList.add('faq__qa--selected');
         selected = qa;
     }
+
+
 
 });
