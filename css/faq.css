@@ -98,9 +98,11 @@
 }
 
 
+
 .faq__question {
     font-size: 1.15em;
     position: relative;
+    cursor:pointer;
 }
 
 .faq__qa--selected .faq__question {
