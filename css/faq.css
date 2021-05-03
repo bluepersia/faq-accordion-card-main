@@ -103,13 +103,18 @@
     font-size: 1.15em;
     position: relative;
     cursor:pointer;
+    transition: color 250ms;
 }
+
+
 
 .faq__qa--selected .faq__question {
     color: var(--n-1);
     font-weight: 700;
 }
-
+.faq__question:hover {
+    color:var(--c-2);
+}
 
 .faq__question::after {
     content: '';
