@@ -1,0 +1,58 @@
+:root {
+    --c-1: hsl(238, 29%, 16%);
+    --c-2: hsl(14, 88%, 65%);
+    --c-3: hsl(240, 5%, 91%);
+
+    --n-1: hsl(237, 12%, 33%);
+    --n-2: hsl(240, 6%, 50%);
+    --n-3: white;
+
+    --f-1: 'Kumbh Sans', sans-serif;
+}
+
+
+
+.faq, .faq::before, .faq::after, .faq *, .faq *::after, .faq *::before 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.faq {
+    font-size: 0.75rem;
+    font-family: var(--f-1);
+    margin-top: 9em;
+    background: var(--n-3);
+
+    border-radius: 5%;
+    text-align: center;
+
+}
+
+
+
+.faq__img-box {
+    display: none;
+}
+
+.faq__img-mobile-container {
+    position: relative;
+    top: -110px;
+    left: 15px;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+
+.faq__img-mobile-container::before {
+    content:'';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 105px;
+    left:30px;
+    background-image: url(../images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,17 @@
+
+
+body {
+    margin: 0;
+    padding: 2.56em 0 5.25em;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+
+}
+
+
+.body__faq {
+    width: 87.2%;
+    margin-left: auto;
+    margin-right: auto;
+}

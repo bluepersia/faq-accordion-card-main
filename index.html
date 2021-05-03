@@ -7,7 +7,11 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
+  <link rel='stylesheet' href='css/faq.css'>
+  <link rel='stylesheet' href='css/base.css'>
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -25,10 +29,13 @@
 
 <body>
 
-  <div class='faq'>
+  <div class='faq body__faq'>
 
     <div class='faq__img-container'>
-      <img class='faq__img' src='images/illustration-box-desktop.svg'>
+      <img class='faq__img-box' src='images/illustration-box-desktop.svg'>
+      <div class='faq__img-mobile-container'>
+        <img class='faq__img-mobile' src='images/illustration-woman-online-mobile.svg'>
+      </div>
     </div>
 
     <div class='faq__faq'>
